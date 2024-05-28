@@ -1,0 +1,43 @@
+202195057
+???
+
+package a20240416;
+
+import java.util.Scanner;
+ 
+
+public class ConTest1 {
+ 
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("? ?? ?? ??£º");
+		int num1 = sc.nextInt();
+		System.out.println("? ?? ?? ??£º");
+		int num2 = sc.nextInt();
+		System.out.println("?? ???£º");
+		char ch = sc.next().charAt(0);
+		int result = 0;
+		
+		switch (ch) {
+		case '+':
+			result = num1 + num2;
+			System.out.println(num1+" + "+num2+" = "+result);
+			break;
+		case '-':
+			result = num1 - num2;
+			System.out.println(num1+" - "+num2+" = "+result);
+			break;
+		case '*':
+			result = num1 * num2;
+			System.out.println(num1+" * "+num2+" = "+result);
+			break;
+		case '/':
+			result = num1 / num2;
+			System.out.println(num1+" / "+num2+" = "+result);
+			break;
+ 
+		}
+	}
+ 
+}
+
